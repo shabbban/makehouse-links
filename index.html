@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MakeHouse — строительство и ремонт под ключ</title>
+<meta name="description" content="Делаем ремонт, как для себя: выполняем все этапы работ, проводим технический контроль и соблюдаем сроки.">
+<meta property="og:title" content="MakeHouse — строительство и ремонт под ключ">
+<meta property="og:description" content="Делаем ремонт, как для себя: все этапы работ, технический контроль, соблюдение сроков.">
+<meta property="og:image" content="img/p04.jpg">
+<meta name="theme-color" content="#F7F0DE">
+<link rel="icon" href="img/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#F7F0DE;--dark:#2B2B2B;--accent:#C65A33;--text:#1E1E1E;--cream:#F7F0DE}
+*{box-sizing:border-box;margin:0}
+html{-webkit-text-size-adjust:100%}
+body{background:var(--bg);color:var(--text);font-family:"Montserrat",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+  padding:32px 20px calc(40px + env(safe-area-inset-bottom,0px));min-height:100vh}
+.wrap{max-width:440px;margin:0 auto;text-align:center}
+.logo{width:120px;height:120px;border-radius:50%;background:var(--dark);margin:0 auto 22px;display:grid;place-items:center}
+.logo img{height:78px;width:auto;display:block}
+h1{font-size:25px;line-height:1.2;font-weight:800;margin-bottom:14px}
+.lead{font-size:19px;line-height:1.4;font-weight:500;margin:0 4px 28px}
+.links{display:grid;gap:10px}
+.links .gap{height:6px}
+.btn{display:block;padding:19px 16px;border-radius:10px;color:var(--cream);text-decoration:none;font-weight:700;font-size:16px;letter-spacing:.01em;
+  background:var(--dark);transition:transform .15s ease,filter .15s ease}
+.btn.accent{background:var(--accent)}
+.btn:hover{filter:brightness(1.1)}
+.btn:active{transform:scale(.985)}
+.btn:focus-visible,.thumb:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.btn.accent:focus-visible{outline-color:var(--dark)}
+h2{font-size:23px;line-height:1.2;font-weight:800;text-align:left;margin:52px 0 16px}
+.track{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;border-radius:6px;background:#e8dfc8}
+.track::-webkit-scrollbar{display:none}
+.track img{flex:0 0 100%;width:100%;height:auto;aspect-ratio:1/1;object-fit:cover;scroll-snap-align:center;display:block}
+.thumbs{display:flex;gap:6px;margin-top:8px;overflow-x:auto;scrollbar-width:none;padding-bottom:2px}
+.thumbs::-webkit-scrollbar{display:none}
+.thumb{flex:0 0 auto;width:48px;height:48px;padding:0;border:0;border-radius:4px;overflow:hidden;cursor:pointer;opacity:.55;background:none;transition:opacity .15s}
+.thumb img{width:100%;height:100%;object-fit:cover;display:block}
+.thumb.is-active{opacity:1;outline:2px solid var(--accent);outline-offset:1px}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<main class="wrap">
+  <div class="logo"><img src="img/logo.png" alt="MakeHouse — создаём комфорт" width="47" height="78"></div>
+  <h1>Строительство<br>и ремонт под ключ</h1>
+  <p class="lead">Делаем ремонт, как для себя: выполняем все этапы работ, проводим технический контроль и соблюдаем сроки</p>
+
+  <nav class="links" aria-label="Связаться с нами">
+    <a class="btn" href="tel:+79887777740">Позвонить</a>
+    <a class="btn" href="https://wa.me/79887777740" target="_blank" rel="noopener">WhatsApp</a>
+    <span class="gap"></span>
+    <a class="btn accent" href="https://www.instagram.com/makehouse_mhk" target="_blank" rel="noopener">Instagram</a>
+    <a class="btn accent" href="https://www.youtube.com/@makehouse_mhk" target="_blank" rel="noopener">YouTube</a>
+    <a class="btn accent" href="https://t.me/makehouse_mhk" target="_blank" rel="noopener">Telegram</a>
+  </nav>
+
+  <section aria-labelledby="objects">
+    <h2 id="objects">Реализованные объекты</h2>
+    <div class="track" id="track"><img src="img/p01.jpg" alt="Реализованный объект MakeHouse, фото 1" width="1000" height="1000" ><img src="img/p02.jpg" alt="Реализованный объект MakeHouse, фото 2" width="1000" height="1000" loading="lazy"><img src="img/p03.jpg" alt="Реализованный объект MakeHouse, фото 3" width="1000" height="1000" loading="lazy"><img src="img/p04.jpg" alt="Реализованный объект MakeHouse, фото 4" width="1000" height="1000" loading="lazy"><img src="img/p05.jpg" alt="Реализованный объект MakeHouse, фото 5" width="1000" height="1000" loading="lazy"><img src="img/p06.jpg" alt="Реализованный объект MakeHouse, фото 6" width="1000" height="1000" loading="lazy"><img src="img/p07.jpg" alt="Реализованный объект MakeHouse, фото 7" width="1000" height="1000" loading="lazy"><img src="img/p08.jpg" alt="Реализованный объект MakeHouse, фото 8" width="1000" height="1000" loading="lazy"><img src="img/p09.jpg" alt="Реализованный объект MakeHouse, фото 9" width="1000" height="1000" loading="lazy"><img src="img/p10.jpg" alt="Реализованный объект MakeHouse, фото 10" width="1000" height="1000" loading="lazy"><img src="img/p11.jpg" alt="Реализованный объект MakeHouse, фото 11" width="1000" height="1000" loading="lazy"><img src="img/p12.jpg" alt="Реализованный объект MakeHouse, фото 12" width="1000" height="1000" loading="lazy"><img src="img/p13.jpg" alt="Реализованный объект MakeHouse, фото 13" width="1000" height="1000" loading="lazy"></div>
+    <div class="thumbs" id="thumbs"><button type="button" class="thumb is-active" aria-label="Фото 1"><img src="img/t01.jpg" alt="" width="160" height="160" loading="lazy"></button><button type="button" class="thumb" aria-label="Фото 2"><img src="img/t02.jpg" alt="" width="160" height="160" loading="lazy"></button><button type="button" class="thumb" aria-label="Фото 3"><img src="img/t03.jpg" alt="" width="160" height="160" loading="lazy"></button><button type="button" class="thumb" aria-label="Фото 4"><img src="img/t04.jpg" alt="" width="160" height="160" loading="lazy"></button><button type="button" class="thumb" aria-label="Фото 5"><img src="img/t05.jpg" alt="" width="160" height="160" loading="lazy"></button><button type="button" class="thumb" aria-label="Фото 6"><img src="img/t06.jpg" alt="" width="160" height="160" loading="lazy"></button><button type="button" class="thumb" aria-label="Фото 7"><img src="img/t07.jpg" alt="" width="160" height="160" loading="lazy"></button><button type="button" class="thumb" aria-label="Фото 8"><img src="img/t08.jpg" alt="" width="160" height="160" loading="lazy"></button><button type="button" class="thumb" aria-label="Фото 9"><img src="img/t09.jpg" alt="" width="160" height="160" loading="lazy"></button><button type="button" class="thumb" aria-label="Фото 10"><img src="img/t10.jpg" alt="" width="160" height="160" loading="lazy"></button><button type="button" class="thumb" aria-label="Фото 11"><img src="img/t11.jpg" alt="" width="160" height="160" loading="lazy"></button><button type="button" class="thumb" aria-label="Фото 12"><img src="img/t12.jpg" alt="" width="160" height="160" loading="lazy"></button><button type="button" class="thumb" aria-label="Фото 13"><img src="img/t13.jpg" alt="" width="160" height="160" loading="lazy"></button></div>
+  </section>
+</main>
+<script>
+(function(){
+  var track=document.getElementById('track'),
+      thumbs=[].slice.call(document.querySelectorAll('#thumbs .thumb')),
+      cur=0;
+  function mark(i){
+    if(i===cur)return;cur=i;
+    thumbs.forEach(function(t,k){t.classList.toggle('is-active',k===i)});
+    var t=thumbs[i],box=t.parentNode;
+    box.scrollTo({left:t.offsetLeft-box.clientWidth/2+t.clientWidth/2,behavior:'smooth'});
+  }
+  track.addEventListener('scroll',function(){
+    mark(Math.round(track.scrollLeft/track.clientWidth));
+  },{passive:true});
+  thumbs.forEach(function(t,i){
+    t.addEventListener('click',function(){
+      track.scrollTo({left:i*track.clientWidth,behavior:'smooth'});
+    });
+  });
+})();
+</script>
+</body>
+</html>
